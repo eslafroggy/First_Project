@@ -1,12 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 
 body {
 	background-image: url("https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/537237_10152240841136758_1725961185_n.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 800px;
-	
-	
+	height: 800px;		
 }
+
 .container {
 	text-align: center;
 	width:450px;
@@ -15,8 +15,32 @@ body {
 	margin:10px;
 	background:#000000;
 	color:#663333;
-	font-family:Verdana;
+	font-family: 'Noto Sans', sans-serif;
 	font-size: 18px;
+}
+
+h2, h3 {
+	background: #663333;
+	padding: 10px;
+	color: #FFFFFF;
+	border-radius:10px;
+	margin:0 auto;
+}
+
+p {
+	color:#FFFFFF;
+	text-decoration: underline;
+}
+
+li {
+	text-align: left;
+	color: #FFFFFF;
+}
+
+#social {
+	position:fixed;
+	bottom:0;
+	right:0;
 }
 
 /*div {
@@ -25,35 +49,11 @@ body {
 	font-size: 18px;
 }*/
 
-h2 {
-	background: #663333;
-	padding: 10px;
-	color: #FFFFFF;
-	border-radius:10px;
-	margin:0 auto;
-}
-
-h3 {
+/*h3 {
 	background: #663333;
 	padding: 10px;
 	color: #FFFFFF;
 	border-radius:10px;
 	margin:0 auto;	
-}
-
-p {
-	color:#FFFFFF;
-	text-decoration: underline;
-}
-li {
-	text-align: left;
-	color: #FFFFFF;
-}
-
-#social {
-	font-size: 18px;
-	font-family: Verdana;
-	float: right;
-	margin: 250px 0 0 0;
-}
+}*/
 

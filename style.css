@@ -6,6 +6,31 @@ body {
 	background-size: cover;
 	height: 800px;		
 }
+nav {
+	margin:0 0 50px 175px;
+}
+
+nav ul {
+	margin:0;
+	padding:0;
+	background:#000000;
+	border: 5px solid gray;
+	list-style-type:none;
+	overflow:hidden;
+	padding:20px;
+	text-decoration: none;
+	opacity:0.7;
+	width: 850px;
+}
+
+nav a {
+	display:block;
+	float:left;
+	font-size: 20px;
+	margin-right:30px;
+	text-align:center;
+	
+}
 
 .container {
 	text-align: center;
